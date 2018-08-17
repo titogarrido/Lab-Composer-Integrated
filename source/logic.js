@@ -1,17 +1,3 @@
-/*
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 /* global getParticipantRegistry getAssetRegistry getFactory */
 
 /**
@@ -123,23 +109,14 @@ async function setupDemo(setupDemo) {  // eslint-disable-line no-unused-vars
 
     // create the grower
     const grower = factory.newResource(NS, 'Grower', 'farmer@email.com');
-    const growerAddress = factory.newConcept(NS, 'Address');
-    growerAddress.country = 'USA';
-    grower.address = growerAddress;
     grower.accountBalance = 0;
 
     // create the importer
     const importer = factory.newResource(NS, 'Importer', 'supermarket@email.com');
-    const importerAddress = factory.newConcept(NS, 'Address');
-    importerAddress.country = 'UK';
-    importer.address = importerAddress;
     importer.accountBalance = 0;
 
     // create the shipper
     const shipper = factory.newResource(NS, 'Shipper', 'shipper@email.com');
-    const shipperAddress = factory.newConcept(NS, 'Address');
-    shipperAddress.country = 'Panama';
-    shipper.address = shipperAddress;
     shipper.accountBalance = 0;
 
     // create the contract
