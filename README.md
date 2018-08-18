@@ -18,22 +18,27 @@ This lab will be broken into three parts:
 
 ### Part 1 - Setting up your LinuxONE Community Cloud guest
 
-1. [Request access to LinuxONE Community Cloud.](https://github.com/IBM/hyperledger-fabric-on-linux-one#request-access-to-linuxone-community-cloud)
+1. Request access to LinuxONE Community Cloud.
 2. [Create your LinuxONE guest](https://github.com/IBM/hyperledger-fabric-on-linux-one#create-your-linuxone-guest)
 3. [Setup your Linux guest for Hyperledger Fabric and Hyperledger Composer](https://github.com/IBM/hyperledger-fabric-on-linux-one#setup-your-linux-guest-for-hyperledger-fabric-and-hyperledger-composer)
 4. [Verify the installation of Hyperledger Fabric and Hyperledger Composer](https://github.com/IBM/hyperledger-fabric-on-linux-one#verify-the-installation-of-hyperledger-fabric-and-hyperledger-composer)
 
 ### Part 2 — Creating a blockchain application and generating API
 
-1. [Importing the components of your blockchain application](https://github.com/titogarrido/Lab-Composer-Integrated#importing-the-components-of-your-blockchain-application)
+1. Importing the components of your blockchain application
 2. [Modeling the participants](https://github.com/titogarrido/Lab-Composer-Integrated#modeling-the-aprticipants)
-3. [Test application code](https://github.com/IBM/hyperledger-fabric-on-linux-one#test-application-code)
-4. [Deploy application to Hyperledger Fabric](https://github.com/IBM/hyperledger-fabric-on-linux-one#deploy-application-to-hyperledger-fabric)
-5. [Generating API from your blockchain application](https://github.com/IBM/hyperledger-fabric-on-linux-one#generating-api)
+3. Modeling assets
+4. Modeling our transactions
+5. Checking the code
+6. Deploy application to Hyperledger Fabric
+7. Generating the API
 
 ### Part 3 — Interacting with Blockchain from an Application
 
-## 
+1. Running our sample application
+2. Test the sample app
+
+---
 
 
 
