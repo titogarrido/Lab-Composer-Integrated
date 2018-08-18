@@ -1,0 +1,4 @@
+app/.Python
+app/pyvenv.cfg
+app/.venv
+app/pip-selfcheck.json
