@@ -20,13 +20,13 @@ This lab will be broken into three parts:
 
 1. Request access to LinuxONE Community Cloud.
 2. Create your LinuxONE guest
-3. [Setup your Linux guest for Hyperledger Fabric and Hyperledger Composer](https://github.com/IBM/hyperledger-fabric-on-linux-one#setup-your-linux-guest-for-hyperledger-fabric-and-hyperledger-composer)
+3. Setup your Linux guest for Hyperledger Fabric and Hyperledger Composer
 4. Verify the installation of Hyperledger Fabric and Hyperledger Composer
 
 ### Part 2 — Creating a blockchain application and generating API
 
 1. Importing the components of your blockchain application
-2. [Modeling the participants](https://github.com/titogarrido/Lab-Composer-Integrated#modeling-the-aprticipants)
+2. Modeling the participants
 3. Modeling assets
 4. Modeling our transactions
 5. Checking the code
