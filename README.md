@@ -42,7 +42,9 @@ This lab will be broken into three parts:
 
 
 
-#Part 1 - Setting up your LinuxONE Community Cloud guest
+
+
+# Part 1 - Setting up your LinuxONE Community Cloud guest
 
 ### Scenario Overview
 
@@ -162,7 +164,7 @@ First, I want to tell you about the business problem that your first blockchain 
 
 23. To make the file executable, run `chmod u+x suse-prereq.sh` and then `ls -al` to make sure that it is showing as an executable file.
 
-    ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Perishable Lab/images/suse-prereq.png)
+    ![](https://github.com/titogarrido/Perishable Lab/images/suse-prereq.png)
 
 24. You're ready to run the setup script! Run the script using the following command, `./suse-prereq.sh`. Be patient. It takes awhile!
 
@@ -183,7 +185,7 @@ First, I want to tell you about the business problem that your first blockchain 
 
 29. To see if your blockchain network is up and running, use the command `docker ps -a`. You should see 4 containers with image names like the ones shown below.
 
-    ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Perishable Lab/images/dockerps.png)
+    ![](https://github.com/titogarrido/Perishable Lab/images/dockerps.png)
 
 30. Verify that the composer command line interface and other tools were installed by entering `composer -v`.
 
@@ -262,15 +264,15 @@ Complete the BASIC INFORMATION.
     
     Give the network admin card that will be created a name: admin@my-first-blockchain-dev
 
-![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp2.png)
+![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp2.png)
 
 9. Scroll until you can see *Choose a Business Network Definition to start with:* and select **empty-business-network** and **Deploy**. 
 
-   ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp3.png)
+   ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp3.png)
 
 10. From *My Wallet* select **Connect now** to go into your business network. 
 
-  ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp4.png) 
+  ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp4.png) 
 
 11. Select **Add a File**.
 
@@ -284,7 +286,7 @@ Complete the BASIC INFORMATION.
 
 13. In the file explorer window, navigate to where you downloaded the files. Refer to step 5 if you need help finding this location. **Select** *README.md* and **Click** *Open*. 
 
-    ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp5.png)
+    ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp5.png)
 
 14. **Select** *Add*. [![Select Add.](https://github.com/IBM/hyperledger-fabric-on-linux-one/raw/master/images/AddREADME.png)](https://github.com/IBM/hyperledger-fabric-on-linux-one/blob/master/images/AddREADME.png)
 
@@ -300,11 +302,11 @@ Complete the BASIC INFORMATION.
 
 17. Your files are all now loaded into Composer Playground. **Click** *Deploy changes* on the left side of the browser.
 
-    ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp6.png)
+    ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp6.png)
 
 18. Click on **Model File**.
 
-    ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp7.png)
+    ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp7.png)
 
 19. Click in the **editor** on the right to begin writing your models.
 
@@ -326,7 +328,7 @@ Complete the BASIC INFORMATION.
       o Double accountBalance
     }
 ```
-4. ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp8.png)
+4. ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp8.png)
 
 5. Above the `Business` definition you will see our 3 participants:
 
@@ -360,7 +362,8 @@ Complete the BASIC INFORMATION.
 
 8. **Click** *Deploy changes* on the left side of the browser.
 
-9. ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp6.png)
+    ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp6.png)
+
 
 ## Modeling assets
 
@@ -455,7 +458,7 @@ You name it. If it has perceived value, and can be exchanged between parties, it
 
 13. **Click** *Deploy changes* on the left side of the browser.
 
-14. ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp6.png)
+14. ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp6.png)
 
 ## Modeling our transactions
 
@@ -499,7 +502,7 @@ We have three transactions defined in our *model.cto*:
 
 6. **Click** *Deploy changes* on the left side of the browser.
 
-7. ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp6.png)
+7. ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp6.png)
 
 
 
@@ -515,7 +518,7 @@ I encourage you to open the `lib/logic.js` file in the editor and look at it for
 
 Any guesses what the code is doing for each transaction?
 
-![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp9.png)
+![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp9.png)
 
 ### Final model.cto
 
@@ -654,7 +657,7 @@ Okay, so where do the transactions show up? A transaction is not *instantiated* 
 
 The figure below shows the smart contract code (from lib/logic.js) that enforces the second stipulation (zero payout for a late shipment) from the contract:
 
-![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp10.png)
+![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp10.png)
 
 
 
@@ -684,7 +687,7 @@ Before you set up the test, let's review the contract (which was instantiated in
 
  The figure below shows the JavaScript code used to instantiate the contract asset:
 
-![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp11.png)
+![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp11.png)
 
 
 
@@ -751,10 +754,10 @@ To simulate receipt of the shipment in Playground, run the **ShipmentReceived** 
 
 1. Back in your browser where Hyperledger Composer Playground is running, **click** the *Define* tab and then **click** *Export* to save your code to your desktop. This is a safety measure. Export  saves all of the indivudual files we imported at the beginning of Part 2 into a compressed file called a business network archive (.bna).
 
-![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp12.png)
+![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp12.png)
 
 2. In the pop-up dialog, **choose** your directory location and **click** *Save*. 
-3. ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp13.png)
+3. ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp13.png)
 4. In the upper right corner of your browser, **select**  *admin* and **click** *My Business Networks*. [![Select admin and logout.](https://github.com/IBM/hyperledger-fabric-on-linux-one/raw/master/images/ClickLogout.png)](https://github.com/IBM/hyperledger-fabric-on-linux-one/blob/master/images/ClickLogout.png) 
 5. In the middle of the page, **click** *Deploy a new business network* under the *Connection: hlfv1* business network.
 
@@ -765,10 +768,10 @@ To simulate receipt of the shipment in Playground, run the **ShipmentReceived** 
    - Description: "My first Blockchain network deployed to hlfv1"
    - Network Admin Card: `admin@hlfv1-first-blockchain`
 
-![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp14.png)
+![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp14.png)
 
 7. Navigate to where you saved your my-first-blockchain.bna. **Select** blockchain-journey.bna from its directory and **click** *Open*.
-8. ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp15.png)
+8. ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp15.png)
 9. Scroll to the bottom of the page and complete the following:
    - **Select** *ID and Secret*.
    - **Create** an *Enrollment ID* of `admin`.
@@ -776,10 +779,10 @@ To simulate receipt of the shipment in Playground, run the **ShipmentReceived** 
    - Note: If you create a different *Enrollment Id* and *Enrollment Secret* then you will need to create and import a network card for that ID. See [Hyperledger Composer documentation for more information.](https://hyperledger.github.io/composer//reference/composer.card.create)
 10. [![Create the credentials for the ID card.](https://github.com/IBM/hyperledger-fabric-on-linux-one/raw/master/images/IDCardCreds.png)](https://github.com/IBM/hyperledger-fabric-on-linux-one/blob/master/images/IDCardCreds.png)
 11. Scroll up to the top and **click** *Deploy* on the right side.
-12. ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp16.png)
+12. ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp16.png)
 13. Under *Connection: hlfv1*, find your newly deployed network *hlfv1-first-blockchain*. **Click** *Connect now*.
 
-![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/comp17.png)
+![](https://github.com/titogarrido/Lab-Composer-Integrated/images/comp17.png)
 
 14. Back in your terminal, enter `docker ps -a` . You can see there is now a new container running where Composer Playground has deployed code to the Hyperledger Fabric.
 
@@ -822,11 +825,11 @@ To simulate receipt of the shipment in Playground, run the **ShipmentReceived** 
 
 5. To see your API, go back to your browser and open a new tab or window. In the address bar, enter `http://xxx.xxx.x.x:3000/explorer` where the x's are the IP address for your Linux guest. You should see a page like the one shown.
 
-   ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/rest1.png)
+   ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/rest1.png)
 
 6. Expand the different methods to see the various calls and parameters you can make through REST API. You can also test the API in this browser to learn how to form the API and see the responses.
 
-7. ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/rest2.png)
+7. ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/rest2.png)
 
 8. Congratulations! You now have a working blockchain application and have created APIs to call your blockchain application.
 
@@ -893,7 +896,7 @@ Inside our github there is a sample app written in Python that we will use to il
 
 7. Enter `http://xxx.xxx.x.x:8081` in the address bar where the x's correspond to your Linux guest IP address.
 
-8. ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/app1.png)
+8. ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/app1.png)
 
    
 
@@ -912,15 +915,15 @@ Inside our github there is a sample app written in Python that we will use to il
 
 4. Then press the "Cargo Arrived" button to see the contract being executed.
 
-   ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/app2.png)
+   ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/app2.png)
 
 5. When the cargo has arrive you are going to see that a new button will apper: *"Details"*:
 
-   ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/app3.png)
+   ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/app3.png)
 
 6. Press the "Details" button and you will see some information about your cargo:
 
-   ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/app4.png)
+   ![](https://github.com/titogarrido/Lab-Composer-Integrated/images/app4.png)
 
 7. Take some time to play with the app and the rest server to see both working.
 
