@@ -424,11 +424,10 @@ You name it. If it has perceived value, and can be exchanged between parties, it
    - temperatureReadings - A list of temperature readings from the IoT device
    - contract - The contract that this shipment will obey. We will model it on the next step.
 
-9. Add the following attributes to our `asset Contract`:
+9. Add the following attributes to our asset Contract:
 
-10. 
 
-11. ```javascript
+10. ```javascript
    asset Contract identified by contractId {
      o String contractId
      --> Grower grower
