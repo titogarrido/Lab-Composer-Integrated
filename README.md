@@ -164,7 +164,7 @@ First, I want to tell you about the business problem that your first blockchain 
 
 23. To make the file executable, run `chmod u+x suse-prereq.sh` and then `ls -al` to make sure that it is showing as an executable file.
 
-    ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Perishable Lab/images/suse-prereq.png)
+    ![](https://github.com/titogarrido/Lab-Composer-Integrated/raw/master/images/suse-prereq.png)
 
 24. You're ready to run the setup script! Run the script using the following command, `./suse-prereq.sh`. Be patient. It takes awhile!
 
@@ -185,7 +185,7 @@ First, I want to tell you about the business problem that your first blockchain 
 
 29. To see if your blockchain network is up and running, use the command `docker ps -a`. You should see 4 containers with image names like the ones shown below.
 
-    ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Perishable Lab/images/dockerps.png)
+    ![](https://github.com/titogarrido/Lab-Composer-Integrated/raw/master/images/dockerps.png)
 
 30. Verify that the composer command line interface and other tools were installed by entering `composer -v`.
 
@@ -214,7 +214,7 @@ First, I want to tell you about the business problem that your first blockchain 
 
 35. Congratulations! Part 1 is now complete! Lets get to work on the fun part. 😃
 
-# Part 2: The Perishable Goods network
+# Part 2: Creating a blockchain application and generating API
 
 The Internet of Things (IoT)-based [Perishable Goods network](https://github.com/hyperledger/composer-sample-networks/tree/master/packages/perishable-network) is a business network involving:
 
@@ -839,15 +839,29 @@ To simulate receipt of the shipment in Playground, run the **ShipmentReceived** 
 
 Inside our github there is a sample app written in Python that we will use to illustrate the integration between a user interface and the blockchain API.
 
-1. Enter in our app directory `cd ~/Lab-Composer-Integrated/app`
+1. Go to your home directory `cd ~`
 
-2. Download the lib requirements from pip:
+2. Clone our repository that has our sample app
 
-3. `linux1@blockchain:~/Lab-Composer-Integrated/app> sudo pip install -r requirements.txt`
+3. ```bash
+   linux1@blockchain:~> git clone https://github.com/titogarrido/Lab-Composer-Integrated.git
+   Cloning into 'Lab-Composer-Integrated'...
+   remote: Counting objects: 100, done.
+   remote: Compressing objects: 100% (83/83), done.
+   remote: Total 100 (delta 20), reused 90 (delta 10), pack-reused 0
+   Receiving objects: 100% (100/100), 2.79 MiB | 0 bytes/s, done.
+   Resolving deltas: 100% (20/20), done.
+   ```
 
-   
+4. Enter in our app directory `cd ~/Lab-Composer-Integrated/app`
 
-4. ```bash
+5. Download the lib requirements from pip:
+
+6. `linux1@blockchain:~/Lab-Composer-Integrated/app> sudo pip install -r requirements.txt`
+
+    
+
+7. ```bash
    linux1@blockchain:~/Lab-Composer-Integrated/app> sudo pip install -r requirements.txt
    /usr/lib/python2.7/site-packages/pip-18.0-py2.7.egg/pip/_vendor/requests/__init__.py:83: RequestsDependencyWarning: Old version of cryptography ([1, 3, 1]) may cause slowdown.
      warnings.warn(warning, RequestsDependencyWarning)
@@ -881,9 +895,9 @@ Inside our github there is a sample app written in Python that we will use to il
    Successfully installed bottle-0.12.13 certifi-2018.8.13 chardet-3.0.4 idna-2.7 requests-2.19.1 urllib3-1.23
    ```
 
-5. Execute our app:
+8. Execute our app:
 
-6. ```bash
+9. ```bash
    linux1@blockchain:~/Lab-Composer-Integrated/app> python main.py
    /usr/lib/python2.7/site-packages/requests/__init__.py:83: RequestsDependencyWarning: Old version of cryptography ([1, 3, 1]) may cause slowdown.
      warnings.warn(warning, RequestsDependencyWarning)
@@ -894,11 +908,11 @@ Inside our github there is a sample app written in Python that we will use to il
    Hit Ctrl-C to quit.
    ```
 
-7. Enter `http://xxx.xxx.x.x:8081` in the address bar where the x's correspond to your Linux guest IP address.
+10. Enter `http://xxx.xxx.x.x:8081` in the address bar where the x's correspond to your Linux guest IP address.
 
-8. ![](https://github.com/titogarrido/Lab-Composer-Integrated/raw/master/images/app1.png)
+11. ![](https://github.com/titogarrido/Lab-Composer-Integrated/raw/master/images/app1.png)
 
-   
+     
 
 ## Test the sample app
 
