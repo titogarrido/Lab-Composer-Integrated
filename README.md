@@ -427,7 +427,7 @@ You name it. If it has perceived value, and can be exchanged between parties, it
 9. Add the following attributes to our asset Contract:
 
 
-10. ```javascript
+```
    asset Contract identified by contractId {
      o String contractId
      --> Grower grower
@@ -441,8 +441,9 @@ You name it. If it has perceived value, and can be exchanged between parties, it
      o Double maxPenaltyFactor
    }
    ```
+   
 
-12. Take a minute to understand each attribute from your asset `Contract`:
+12. Take a minute to understand each attribute from your asset Contract:
 
     - contractId - It is the ID of your contract, unique identifier.
     - grower - refers to `participant Grower`
