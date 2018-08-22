@@ -76,4 +76,4 @@ def cargoDetails(shipmentId):
 
     return template('cargoDetails', shipment=shipment, contract=contract, full_price=full_price, minPenalty=minPenalty, maxPenalty=maxPenalty, payOut=payOut, unitCount=unitCount)
 
-run(host='127.0.0.1', port=8081, debug=True, reloader=True)
+run(host='0.0.0.0', port=8081, debug=True, reloader=True)
