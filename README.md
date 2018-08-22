@@ -426,7 +426,9 @@ You name it. If it has perceived value, and can be exchanged between parties, it
 
 9. Add the following attributes to our `asset Contract`:
 
-10. ```javascript
+10. 
+
+11. ```javascript
    asset Contract identified by contractId {
      o String contractId
      --> Grower grower
@@ -441,7 +443,7 @@ You name it. If it has perceived value, and can be exchanged between parties, it
    }
    ```
 
-11. Take a minute to understand each attribute from your asset `Contract`:
+12. Take a minute to understand each attribute from your asset `Contract`:
 
     - contractId - It is the ID of your contract, unique identifier.
     - grower - refers to `participant Grower`
@@ -454,11 +456,11 @@ You name it. If it has perceived value, and can be exchanged between parties, it
     - minPenaltyFactor - How much we reduce the price for every degree below the min temp
     - maxPenaltyFactor - How much we reduce the price for every degree above the max temp
 
-12. That is it for our assets, take some time to understand what we have modeled if needed.
+13. That is it for our assets, take some time to understand what we have modeled if needed.
 
-13. **Click** *Deploy changes* on the left side of the browser.
+14. **Click** *Deploy changes* on the left side of the browser.
 
-14. ![](https://github.com/titogarrido/Lab-Composer-Integrated/raw/master/images/comp6.png)
+15. ![](https://github.com/titogarrido/Lab-Composer-Integrated/raw/master/images/comp6.png)
 
 ## Modeling our transactions
 
