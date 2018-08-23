@@ -254,7 +254,11 @@ We'll be using this business network as the example throughout this workshop.
 
    - **Note:** You will need to view the browser in Full  Screen (fully expanded) mode to be able to access everything and prevent  issues with inability to scroll on certain screens.
 
-8. Select Deploy a new business network under Connection: Web Browser. Select Deploy a new business network.
+8. Select Deploy a new business network under **Connection: Web Browser**. Select Deploy a new business network.
+
+   ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/compweb1.png)
+
+![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/compweb2.png)
 
 Complete the BASIC INFORMATION.
 
@@ -440,8 +444,8 @@ You name it. If it has perceived value, and can be exchanged between parties, it
      o Double minPenaltyFactor
      o Double maxPenaltyFactor
    }
-   ```
-   
+```
+
 
 12. Take a minute to understand each attribute from your asset Contract:
 
