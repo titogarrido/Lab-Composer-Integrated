@@ -256,9 +256,9 @@ We'll be using this business network as the example throughout this workshop.
 
 8. Select Deploy a new business network under **Connection: Web Browser**. Select Deploy a new business network.
 
-   ![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/compweb1.png)
+   ![](https://github.com/titogarrido/Lab-Composer-Integrated/raw/master/images/compweb1.png)
 
-![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Labs/Lab-Composer-Integrated/images/compweb2.png)
+![](https://github.com/titogarrido/Lab-Composer-Integrated/raw/master/images/compweb2.png)
 
 Complete the BASIC INFORMATION.
 
