@@ -677,11 +677,11 @@ Click the **Test** tab at the top of the screen:
 
 To execute the **SetupDemo** transaction, click the **Submit Transaction** button.
 
-![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Workshop/Workshop 2 days/Day 2/images/comp8.png)
+![](https://github.com/titogarrido/Lab-Composer-Integrated/raw/master/images/comp8.png)
 
 Make sure that SetupDemo appears in the **Transaction Type** drop-down, then click the **Submit** button. When the transaction executes successfully, you will see a brief notification message telling you so.
 
-Select **Grower** in the ASSETS pane on the left side, and all of its instances appear on the right side. The same is true for the other resources (go ahead, try it!).
+Select **Grower** in the PARTICIPANTS pane on the left side, and all of its instances appear on the right side. The same is true for the other resources (go ahead, try it!).
 
 Now that you have a business network defined, and assets and participants in their respective registries, you can test your network.
 
