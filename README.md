@@ -671,13 +671,7 @@ The figure below shows the smart contract code (from lib/logic.js) that enforces
 
 Click the **Test** tab at the top of the screen:
 
-![](/Users/titogarridoogando/Documents/IBM/LabService/Blockchain/Workshop/Workshop%202%20days/Day%202/images/comp7.png)
-
-
-
 To execute the **SetupDemo** transaction, click the **Submit Transaction** button.
-
-![](https://github.com/titogarrido/Lab-Composer-Integrated/raw/master/images/comp8.png)
 
 Make sure that SetupDemo appears in the **Transaction Type** drop-down, then click the **Submit** button. When the transaction executes successfully, you will see a brief notification message telling you so.
 
