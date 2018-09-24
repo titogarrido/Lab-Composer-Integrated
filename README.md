@@ -168,10 +168,9 @@ First, I want to tell you about the business problem that your first blockchain 
 
 24. You're ready to run the setup script! Run the script using the following command, `./suse-prereq.sh`. Be patient. It takes awhile!
 
-25. The first time you run the script, it will set some permissions and  environment variables that require you to exit and log in again.
+25. The first time you run the script, it will set some permissions and  environment variables execute `bash` to refresh the environment variables
 
-    - Exit the session by **typing** `exit`.
-    - **Log in** again —  `ssh -i DJBlockchain.pem linux1@xxx.xxx.x.x` where the x's correspond to your Linux guest IP.
+    ```bash```
 
 26. Now it is time to install your fabric network. Run the following command:
 
@@ -285,8 +284,6 @@ Complete the BASIC INFORMATION.
 12. From the *Add a file* pop-up dialog, select **browse**.
 
     [![Select browse.](https://github.com/IBM/hyperledger-fabric-on-linux-one/raw/master/images/SelectBrowse.png)](https://github.com/IBM/hyperledger-fabric-on-linux-one/blob/master/images/SelectBrowse.png)
-
-    
 
 13. In the file explorer window, navigate to where you downloaded the files. Refer to step 5 if you need help finding this location. **Select** *README.md* and **Click** *Open*. 
 
@@ -485,7 +482,6 @@ We have three transactions defined in our *model.cto*:
   - 1 contract (CONS_001)
   - 1 shipment (SHIP_001)
 
-  
 
 1. As our first step we are going to update our `TemperatureReading` transaction. We need to add two parameters, `centigrades`  and a reference to the `shipment`:
 
