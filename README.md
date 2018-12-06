@@ -780,7 +780,7 @@ To simulate receipt of the shipment in Playground, run the **ShipmentReceived** 
 
 ![](https://github.com/titogarrido/Lab-Composer-Integrated/raw/master/images/comp17.png)
 
-14. Back in your terminal, enter `docker ps -a` . You can see there is now a new container running where Composer Playground has deployed code to the Hyperledger Fabric.
+14. Back in your remote linux terminal, enter `docker ps -a` . You can see there is now a new container running where Composer Playground has deployed code to the Hyperledger Fabric.
 
 15. ```bash
     linux1@blockchain:~/fabric-tools> docker ps -a
