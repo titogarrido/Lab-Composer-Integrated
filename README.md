@@ -246,7 +246,7 @@ We'll be using this business network as the example throughout this workshop.
 
 6. ```bash
    Air-de-Tito:source titogarridoogando$ ls
-   README.md	logic.js	perishable.cto	permissions.acl
+   README.md	logic.js	model.cto	permissions.acl
    ```
 
 7. Go back to your browser that has Composer Playground open. If you've closed it, you can open it in your browser by entering `xxx.xxx.x.x:8080` into the address bar where the x's correspond to your Linux guest's IP address.
@@ -692,10 +692,10 @@ So now you're ready to test the smart contract. With Playground running in your 
 Let's test the following scenario:
 
 1. IoT temperature sensors provide the following readings (numbers are degrees Celsius):
-        5
-        7
-        1
-        4
+   ​     5
+   ​     7
+   ​     1
+   ​     4
 2. The Shipment is received.
 
 Let's look at the components of this scenario one at a time, starting with the temperature sensor data.
